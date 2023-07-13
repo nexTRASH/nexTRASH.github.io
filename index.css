@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+@media (any-pointer: coarse) {
+	body {
+		font-size: 5vw;
+	}
+}
+
 hr {
     height: 5px;
     /* border: none;
@@ -40,7 +46,7 @@ button {
     background-repeat: repeat;
     font-family: "Roboto Slab";
     font-weight: 700;
-    font-size: 60px;
+    font-size: 5vw;
     color: whitesmoke;
     justify-content: space-between;
 }
